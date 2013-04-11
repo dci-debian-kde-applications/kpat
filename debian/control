@@ -19,6 +19,16 @@ Homepage: http://games.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kpat.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kpat.git
 
+Package: libkcardgame4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: khelpcenter4
+Description: shared library for KDE Patience card games
+ This package contains a shared library used by KDE Patience card games.
+ .
+ This package is part of the KDE games module.
+
 Package: kpat
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdegames-card-data (>= 4:4.10)
