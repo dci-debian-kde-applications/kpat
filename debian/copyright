@@ -1,0 +1,167 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kpat
+Upstream-Contact: Parker Coates <parker.coates@kdemail.net>
+                  Albert Astals Cid <aacid@kde.org>
+                  Wolfgang Rohdewald <wolfgang@rohdewald.de>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 1995, Paul Olav Tvete <paul@troll.no>
+           2000-2009, Stephan Kulow <coolo@kde.org>
+License: GPL-2+
+
+Files: doc/*
+Copyright: 2000, Paul Olav Tvete <paul@troll.no>
+           2001-2004, Maren Pakura <maren@kde.org>
+           2007, Stephan Kulow <coolo@kde.org>
+License: GFDL-1.2+
+
+Files: clock.cpp
+       fortyeight.cpp
+       gameselectionscene.cpp
+       gameselectionscene.h
+       golf.cpp
+       gypsy.cpp
+       simon.cpp
+       simon.cpp
+       yukon.cpp
+       libkcardgame/shuffle.h
+Copyright: 2000-2009, Stephan Kulow <coolo@kde.org>
+           2008-2010, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: dealer.cpp
+       dealer.h
+       dealerinfo.cpp
+       dealerinfo.h
+       grandf.cpp
+       idiot.cpp
+       klondike.cpp
+       mainwindow.cpp
+       mainwindow.h
+       view.cpp
+       view.h
+       libkcardgame/kcardpile.cpp
+       libkcardgame/kcardpile.h
+       libkcardgame/kcardscene.cpp
+       libkcardgame/kcardscene.h
+Copyright: 1995, Paul Olav Tvete <paul@troll.no>
+           2000-2009, Stephan Kulow <coolo@kde.org>
+           2009-2010 Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: freecell.h
+       mod3.h
+Copyright: 1997, Rodolfo Borges <barrett@labma.ufrj.br>
+           1998-2009, Stephan Kulow <coolo@kde.org>
+License: GPL-2+
+
+Files: freecell.cpp
+       mod3.cpp
+Copyright: 1997, Rodolfo Borges <barrett@labma.ufrj.br>
+           1998-2009, Stephan Kulow <coolo@kde.org>
+           2010, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: messagebox.cpp
+       messagebox.h
+       numbereddealdialog.cpp
+       numbereddealdialog.h
+       patpile.cpp
+       patpile.h
+       pileutils.cpp
+       pileutils.h
+       renderer.cpp
+       renderer.h
+       soundengine.cpp
+       soundengine.h
+       libkcardgame/kabstractcarddeck.h
+       libkcardgame/kabstractcarddeck_p.h
+       libkcardgame/kcard.cpp
+       libkcardgame/kcarddeck.cpp
+       libkcardgame/kcarddeck.h
+       libkcardgame/kcard.h
+       libkcardgame/kcard_p.h
+       libkcardgame/kcardtheme.cpp
+       libkcardgame/kcardtheme.h
+       libkcardgame/kcardthemewidget.cpp
+       libkcardgame/kcardthemewidget.h
+Copyright: 2010, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: spider.h
+Copyright: 2000-2009, Stephan Kulow <coolo@kde.org>
+           2003, Josh Metzler <joshdeb@metzlers.org>
+License: GPL-2+
+
+Files: spider.cpp
+Copyright: 2000-2009, Stephan Kulow <coolo@kde.org>
+           2003 Josh Metzler <joshdeb@metzlers.org>
+           2010 Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: statisticsdialog.cpp
+       statisticsdialog.h
+Copyright: 2004, Bart Vanhauwaert <bvh-cplusplus@irule.be>
+           2005-2008, Stephan Kulow <coolo@kde.org>
+           2008-2009, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: libkcardgame/common.h
+       libkcardgame/kcardthemewidget_p.h
+Copyright: 2009, Davide Bettio <davide.bettio@kdemail.net>
+           2010, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: libkcardgame/kabstractcarddeck.cpp
+Copyright: 2008, Andreas Pakulat <apaku@gmx.de>
+           2009-2010, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: libkcardgame/libkcardgame_export.h
+Copyright: 2007, David Faure <faure@kde.org>
+           2010, Parker Coates <coates@kde.org>
+License: GPL-2+
+
+Files: patsolve/freecellsolver.cpp
+       patsolve/freecellsolver.h
+       patsolve/memory.cpp
+       patsolve/memory.h
+       patsolve/patsolve.cpp
+       patsolve/patsolve.h
+Copyright: 1998-2002, Tom Holroyd <tomh@kurage.nimh.nih.gov>
+           2000-2009, Stephan Kulow <coolo@kde.org>
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+

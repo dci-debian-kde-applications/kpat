@@ -1,0 +1,43 @@
+.TH KPAT 6
+.SH NAME
+kpat \- KDE patience game
+.SH SYNOPSIS
+.B kpat
+.I [Qt-options] [KDE-options] [options] [file]
+.SH DESCRIPTION
+.B kpat
+is a collection of fourteen solitaire card games, including Klondike,
+Spider, and FreeCell.
+.SH OPTIONS
+.TP
+.B \-\-solvegame \fIfile\fR
+Try to find a solution to the given savegame
+.TP
+.B \-\-solve \fInum\fR
+Dealer to solve (debug)
+.TP
+.B \-\-start \fInum\fR
+Game range start (default 0:INT_MAX)
+.TP
+.B \-\-end \fInumfR
+Game range end (default start:start if start given)
+.TP
+.B \-\-gametype \fIgame\fR
+Skip the selection screen and load a particular game type. Valid values are:
+acesup, fortyeight, freecell, golf, grandfather, grandfathersclock, gypsy,
+klondike, mod3, simplesimon, spider, yukon
+.TP
+.B \-\-testdir \fIdirectory\fR
+Directory with test cases
+.TP
+.B \-\-generate
+Generate random test cases
+.TP
+.B file
+File to load
+.so kdeopt.part
+.SH SEE ALSO
+More detailed user documentation is available from
+.BR help:/kpat
+(either enter this URL into \fBkonqueror\fP, or run `khelpcenter
+help:/kpat').
