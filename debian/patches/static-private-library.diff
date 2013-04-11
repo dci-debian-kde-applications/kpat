@@ -1,0 +1,18 @@
+Description: Make libkcardgame statically linked into kpat
+Author: Maximiliano Curia <maxy@debian.org>
+Last-Update: 2013-04-11
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: kpat/libkcardgame/CMakeLists.txt
+===================================================================
+--- kpat.orig/libkcardgame/CMakeLists.txt	2013-04-11 12:06:19.798592762 +0200
++++ kpat/libkcardgame/CMakeLists.txt	2013-04-11 12:06:51.897291720 +0200
+@@ -8,7 +8,7 @@
+     kcardthemewidget.cpp
+ )
+ 
+-kde4_add_library( kcardgame SHARED ${libkcardgame_SRCS} )
++kde4_add_library( kcardgame STATIC ${libkcardgame_SRCS} )
+ target_link_libraries( kcardgame kdegames ${KDE4_KNEWSTUFF3_LIBS} )
+ 
+ install( TARGETS kcardgame ${INSTALL_TARGETS_DEFAULT_ARGS} )
