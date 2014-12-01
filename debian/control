@@ -19,8 +19,8 @@ Build-Depends: cmake,
                shared-mime-info
 Standards-Version: 3.9.5
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kpat.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kpat.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kpat.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kpat.git
 
 Package: kpat
 Architecture: any
