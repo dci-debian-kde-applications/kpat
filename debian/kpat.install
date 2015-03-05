@@ -1,4 +1,7 @@
 ../icons/kpat-16.xpm /usr/share/pixmaps
 ../icons/kpat.xpm /usr/share/pixmaps
+etc/xdg/kcardtheme.knsrc
+etc/xdg/kpat.knsrc
 usr/games/kpat
+usr/lib/*/libkcardgame.so
 usr/share/*
