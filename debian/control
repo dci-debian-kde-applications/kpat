@@ -66,7 +66,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kpat.git
 
 Package: kpat
 Architecture: any
-Depends: kdegames-card-data-f5 (>= 4:4.10), ${misc:Depends}, ${shlibs:Depends}
+Depends: kdegames-card-data-kf5 (>= 4:4.10), ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
 Description: solitaire card games
  KPatience is a collection of fourteen solitaire card games, including Klondike,
