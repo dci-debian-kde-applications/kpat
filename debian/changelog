@@ -1,8 +1,9 @@
-kpat (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+kpat (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 12:05:34 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 22:20:04 -0700
 
 kpat (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
