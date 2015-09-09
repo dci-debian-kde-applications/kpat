@@ -6,9 +6,97 @@ Upstream-Contact: Parker Coates <parker.coates@kdemail.net>
 Source: http://www.kde.org/download/
 
 Files: *
-Copyright: 1995, Paul Olav Tvete <paul@troll.no>
-           2000-2009, Stephan Kulow <coolo@kde.org>
+Copyright: 2008, Andreas Pakulat <apaku@gmx.de>
+           2009, Davide Bettio <davide.bettio@kdemail.net>
+           2007-2010, Parker Coates <coates@kde.org>
+           2001-2009, Stephan Kulow <coolo@kde.org>
+           1998-2002, Tom Holroyd <tomh@kurage.nimh.nih.gov>
 License: GPL-2+
+
+Files: COPYING
+       clock.cpp
+       clock.h
+       dealer.cpp
+       dealer.h
+       dealerinfo.cpp
+       dealerinfo.h
+       fortyeight.cpp
+       fortyeight.h
+       freecell.cpp
+       freecell.h
+       gamestate.h
+       golf.cpp
+       golf.h
+       grandf.cpp
+       grandf.h
+       gypsy.cpp
+       gypsy.h
+       hint.h
+       idiot.cpp
+       idiot.h
+       klondike.cpp
+       klondike.h
+       libkcardgame/kcardpile.cpp
+       libkcardgame/kcardpile.h
+       libkcardgame/kcardscene.cpp
+       libkcardgame/kcardscene.h
+       main.cpp
+       mainwindow.cpp
+       mainwindow.h
+       mod3.cpp
+       mod3.h
+       simon.cpp
+       simon.h
+       spider.cpp
+       spider.h
+       statisticsdialog.cpp
+       statisticsdialog.h
+       version.h
+       view.cpp
+       view.h
+       yukon.cpp
+       yukon.h
+Copyright: 2004, Bart Vanhauwaert <bvh-cplusplus@irule.be>
+           1989-1991, Free Software Foundation, Inc
+           2003, Josh Metzler <joshdeb@metzlers.org>
+           1997, Mario Weilguni <mweilguni@sime.com>
+           2008-2010, Parker Coates <coates@kde.org>
+           1995, Paul Olav Tvete <paul@troll.no>
+           1997, Rodolfo Borges <barrett@labma.ufrj.br>
+           1998-2009, Stephan Kulow <coolo@kde.org>
+License: GPL-2+_or_MIT/X11
+ License of original code:
+ -------------------------------------------------------------------------
+   Permission to use, copy, modify, and distribute this software and its
+   documentation for any purpose and without fee is hereby granted,
+   provided that the above copyright notice appear in all copies and that
+   both that copyright notice and this permission notice appear in
+   supporting documentation.
+ .
+   This file is provided AS IS with no warranties of any kind.  The author
+   shall have no liability with respect to the infringement of copyrights,
+   trade secrets or any patents by this file or any part thereof.  In no
+   event will the author be liable for any lost revenue or profits or
+   other special, indirect and consequential damages.
+ -------------------------------------------------------------------------
+ .
+ License of modifications/additions made after 2009-01-01:
+ -------------------------------------------------------------------------
+   This program is free software; you can redistribute it and/or
+   modify it under the terms of the GNU General Public License as
+   published by the Free Software Foundation; either version 2 of
+   the License, or (at your option) any later version.
+ .
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+ .
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -------------------------------------------------------------------------
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 Files: doc/*
 Copyright: 2000, Paul Olav Tvete <paul@troll.no>
@@ -16,122 +104,6 @@ Copyright: 2000, Paul Olav Tvete <paul@troll.no>
            2007, Stephan Kulow <coolo@kde.org>
 License: GFDL-1.2+
 
-Files: clock.cpp
-       fortyeight.cpp
-       gameselectionscene.cpp
-       gameselectionscene.h
-       golf.cpp
-       gypsy.cpp
-       simon.cpp
-       simon.cpp
-       yukon.cpp
-       libkcardgame/shuffle.h
-Copyright: 2000-2009, Stephan Kulow <coolo@kde.org>
-           2008-2010, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: dealer.cpp
-       dealer.h
-       dealerinfo.cpp
-       dealerinfo.h
-       grandf.cpp
-       idiot.cpp
-       klondike.cpp
-       mainwindow.cpp
-       mainwindow.h
-       view.cpp
-       view.h
-       libkcardgame/kcardpile.cpp
-       libkcardgame/kcardpile.h
-       libkcardgame/kcardscene.cpp
-       libkcardgame/kcardscene.h
-Copyright: 1995, Paul Olav Tvete <paul@troll.no>
-           2000-2009, Stephan Kulow <coolo@kde.org>
-           2009-2010 Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: freecell.h
-       mod3.h
-Copyright: 1997, Rodolfo Borges <barrett@labma.ufrj.br>
-           1998-2009, Stephan Kulow <coolo@kde.org>
-License: GPL-2+
-
-Files: freecell.cpp
-       mod3.cpp
-Copyright: 1997, Rodolfo Borges <barrett@labma.ufrj.br>
-           1998-2009, Stephan Kulow <coolo@kde.org>
-           2010, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: messagebox.cpp
-       messagebox.h
-       numbereddealdialog.cpp
-       numbereddealdialog.h
-       patpile.cpp
-       patpile.h
-       pileutils.cpp
-       pileutils.h
-       renderer.cpp
-       renderer.h
-       soundengine.cpp
-       soundengine.h
-       libkcardgame/kabstractcarddeck.h
-       libkcardgame/kabstractcarddeck_p.h
-       libkcardgame/kcard.cpp
-       libkcardgame/kcarddeck.cpp
-       libkcardgame/kcarddeck.h
-       libkcardgame/kcard.h
-       libkcardgame/kcard_p.h
-       libkcardgame/kcardtheme.cpp
-       libkcardgame/kcardtheme.h
-       libkcardgame/kcardthemewidget.cpp
-       libkcardgame/kcardthemewidget.h
-Copyright: 2010, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: spider.h
-Copyright: 2000-2009, Stephan Kulow <coolo@kde.org>
-           2003, Josh Metzler <joshdeb@metzlers.org>
-License: GPL-2+
-
-Files: spider.cpp
-Copyright: 2000-2009, Stephan Kulow <coolo@kde.org>
-           2003 Josh Metzler <joshdeb@metzlers.org>
-           2010 Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: statisticsdialog.cpp
-       statisticsdialog.h
-Copyright: 2004, Bart Vanhauwaert <bvh-cplusplus@irule.be>
-           2005-2008, Stephan Kulow <coolo@kde.org>
-           2008-2009, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: libkcardgame/common.h
-       libkcardgame/kcardthemewidget_p.h
-Copyright: 2009, Davide Bettio <davide.bettio@kdemail.net>
-           2010, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: libkcardgame/kabstractcarddeck.cpp
-Copyright: 2008, Andreas Pakulat <apaku@gmx.de>
-           2009-2010, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: libkcardgame/libkcardgame_export.h
-Copyright: 2007, David Faure <faure@kde.org>
-           2010, Parker Coates <coates@kde.org>
-License: GPL-2+
-
-Files: patsolve/freecellsolver.cpp
-       patsolve/freecellsolver.h
-       patsolve/memory.cpp
-       patsolve/memory.h
-       patsolve/patsolve.cpp
-       patsolve/patsolve.h
-Copyright: 1998-2002, Tom Holroyd <tomh@kurage.nimh.nih.gov>
-           2000-2009, Stephan Kulow <coolo@kde.org>
-License: GPL-2+
 
 Files: debian/*
 Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
