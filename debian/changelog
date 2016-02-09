@@ -1,3 +1,9 @@
+kpat (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 08 Feb 2016 18:37:52 -0800
+
 kpat (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
