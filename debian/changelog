@@ -1,8 +1,8 @@
-kpat (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kpat (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 08 Feb 2016 18:37:52 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:59:30 +0100
 
 kpat (4:15.12.1-1) experimental; urgency=medium
 
