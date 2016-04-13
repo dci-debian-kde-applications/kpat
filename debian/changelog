@@ -1,3 +1,11 @@
+kpat (4:15.12.3-1~1.gbpae2324) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ae2324768fa3ff574078f32ce22ad673d0175e2b **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:19:19 +0200
+
 kpat (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
