@@ -1,10 +1,11 @@
-kpat (4:15.12.3-1~1.gbpae2324) UNRELEASED; urgency=medium
+kpat (4:16.04.0-1~1.gbpc05d02) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ae2324768fa3ff574078f32ce22ad673d0175e2b **
+  ** SNAPSHOT build @c05d02981bf3d2f8592ace1878c4e96504ea7a63 **
 
   * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:19:19 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 06:18:17 +0200
 
 kpat (4:15.12.1-1) experimental; urgency=medium
 
