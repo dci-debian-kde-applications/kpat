@@ -1,11 +1,8 @@
-kpat (4:16.04.0-2~2.gbp20afbb) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @20afbb66142317abaef059251bc5ac60cf430d6a **
+kpat (4:16.04.0-2) unstable; urgency=medium
 
   * Add new libkcardgame.so lintian-override
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Mon, 27 Jun 2016 13:28:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 16:32:58 +0200
 
 kpat (4:16.04.0-1) unstable; urgency=medium
 
