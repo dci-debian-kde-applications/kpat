@@ -1,10 +1,11 @@
-kpat (4:16.04.0-2~1.gbp63665f) UNRELEASED; urgency=medium
+kpat (4:16.04.0-2~2.gbp20afbb) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @63665ffa9e1d1a7801c00f86e9b4b3f1e58a5075 **
+  ** SNAPSHOT build @20afbb66142317abaef059251bc5ac60cf430d6a **
 
   * Add new libkcardgame.so lintian-override
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 29 May 2016 15:18:12 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Mon, 27 Jun 2016 13:28:25 +0200
 
 kpat (4:16.04.0-1) unstable; urgency=medium
 
