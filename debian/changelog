@@ -1,14 +1,22 @@
-kpat (4:16.04.1-0neon) xenial; urgency=medium
+kpat (4:16.04.0-2) unstable; urgency=medium
 
-  * New release
+  * Add new libkcardgame.so lintian-override
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:43:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 16:32:58 +0200
 
-kpat (4:15.12.2-1~) UNRELEASED; urgency=medium
+kpat (4:16.04.0-1) unstable; urgency=medium
 
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
   * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 10:07:31 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:43:48 +0200
 
 kpat (4:15.12.1-1) experimental; urgency=medium
 
