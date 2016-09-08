@@ -1,10 +1,16 @@
-kpat (4:16.08.0-1~1.gbp5c0823) UNRELEASED; urgency=medium
+kpat (4:16.08.1-1~1.gbpb6dae8) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @b6dae876888523b2574cde631f24184bd5a64959 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @5c08231d92636193534fb4ac703fe43dafa956c4 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 19 Aug 2016 00:18:16 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:18:40 +0200
 
 kpat (4:16.04.0-2) unstable; urgency=medium
 
