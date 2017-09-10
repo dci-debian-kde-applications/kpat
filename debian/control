@@ -40,7 +40,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qtbase5-dev (>= 5.4),
                qtdeclarative5-dev (>= 5.4),
                shared-mime-info
-Standards-Version: 3.9.8
+Standards-Version: 4.1.0
 Homepage: http://games.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kpat.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kpat.git
