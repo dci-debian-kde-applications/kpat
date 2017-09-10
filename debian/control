@@ -50,6 +50,8 @@ Package: kpat
 Architecture: any
 Depends: kdegames-card-data-kf5 (>= 4:4.10), ${misc:Depends}, ${shlibs:Depends}
 Recommends: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: solitaire card games
  KPatience is a collection of fourteen solitaire card games, including Klondike,
  Spider, and FreeCell.
