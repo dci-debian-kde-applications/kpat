@@ -4,9 +4,7 @@ version: 17.08.1
 summary: solitaire card games
 description: |-
      KPatience is a collection of fourteen solitaire card games, including Klondike,
- Spider, and FreeCell.
-
-    This package is part of the KDE education module.
+     Spider, and FreeCell.
 confinement: strict
 grade: stable
 apps:
