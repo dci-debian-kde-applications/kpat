@@ -16,6 +16,9 @@ kpat (4:17.08.3-1~1) UNRELEASED; urgency=medium
   * Stop forcing debian/tmp as local installation directory, installing
     everything to the final location
     - drop kpat.install, no more useful now
+  * Remove local man page, since upstream provides it (with translated
+    versions as well)
+    - drop not-installed, no more useful now
 
  -- Pino Toscano <pino@debian.org>  Sat, 18 Nov 2017 11:25:00 +0100
 
